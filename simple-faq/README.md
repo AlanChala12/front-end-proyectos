@@ -6,8 +6,8 @@ Esta página es una sección de "Preguntas Frecuentes" (FAQ) que proporciona inf
 ---
 
 ## Características
--- Página simple
--- Ideal para practicar.
+- Página simple. 🍕
+- Ideal para practicar. 😎
 
 ---
 
@@ -18,4 +18,4 @@ Esta página es una sección de "Preguntas Frecuentes" (FAQ) que proporciona inf
 ---
 
 ## Preview
-![alt text](../simple-landing/resources/preview.JPG)
+![alt text](resources/preview.JPG)
