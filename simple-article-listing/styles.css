@@ -2,7 +2,7 @@
 
 :root {
     --style: "Poppins", serif;
-    --bg-color: #F8FAFC;
+    --bg-color: #ffffff;
 }
 
 * {
@@ -36,12 +36,13 @@ main {
     text-align: center;
     font-weight: 600;
     color: #000000;
+    padding: 2rem; 
 }
 
 .text img {
     display: block;
     margin: 0 auto;
-    padding: 1.5rem; 
+    max-width: 100%;
 } 
 
 .content-text p {
@@ -66,7 +67,7 @@ main {
     max-width: 750px;
     align-items: center;
     justify-content: center;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
 }
 
 
