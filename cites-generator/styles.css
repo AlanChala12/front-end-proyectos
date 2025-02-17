@@ -1,0 +1,78 @@
+:root {
+   --bg-color: #0D1B2A;
+   --font-fml: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   --bg-second-color: #dfdfdf;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: var(--bg-color);
+   font-family: var(--font-fml);
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+}
+
+.container {
+   width: 500px;
+   height: 550px;
+   background-color: var(--bg-second-color);
+   border-radius: 1rem;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.container-text h1 {
+   text-align: center;
+   font-size: 2.5rem;
+   color: var(--bg-color);
+}
+
+.container-main {
+   height: 50%;
+   display: grid;
+   place-content: center;
+   padding: 1.5rem;
+} 
+
+.container-main .cita {
+   font-size: 1.5rem;
+   font-weight: 500;
+   text-align: center;
+   user-select: none;
+}
+
+.container-main .autor {
+   text-align: center;
+   margin-top: 1.5rem;
+   font-weight: 400;
+   font-style: italic;
+   color: var(--bg-color);
+   user-select: none;
+}
+
+.container-button button {
+   padding: 1rem;
+   border: none;
+   border-radius: 2rem;
+   background-color: var(--bg-color);
+   color: var(--bg-second-color);
+   font-size: 1rem;
+   width: 200px;
+   cursor: pointer;
+   transition: all ease .5s;
+}
+
+.container-button button:hover {
+   border-radius: 0;
+}
