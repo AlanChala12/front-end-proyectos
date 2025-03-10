@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Montserrat", serif;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: rgb(0,68,134);
+   background: radial-gradient(circle, rgba(0,68,134,1) 0%, rgba(70,199,252,1) 100%);
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 1rem;
+}
+
+.container {
+   background-color: white;
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   max-width: 500px;
+   border-radius: 1rem;
+}
+
+.container .text h1 {
+   font-size: 2.5rem;
+   text-align: center;
+   text-transform: uppercase;
+   color: rgb(3, 3, 70);
+}
+ 
+.container .show {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+   border: 2px solid rgb(3, 3, 70);
+   border-radius: 1rem;
+}
+ 
+.show input {
+   font-size: 2rem;
+   padding: .2rem;
+   outline: none;
+   border: none;
+   width: 50%;
+}
+ 
+.show button {
+   font-size: 2rem;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   transition: ease all .3s;
+}
+ 
+.show button:hover {
+   color: gray;
+}
+ 
+.generate {
+   padding: 1rem;
+   font-size: 1.2rem;
+   cursor: pointer;
+   background-color: rgb(29, 126, 186);
+   border: none;
+   color: white;
+   transition: all ease .4s;
+   border-radius: 1rem;
+   width: 210px;
+   margin: 0 auto;
+}
+ 
+.generate:hover {
+   background-color: rgb(44, 150, 216);
+}
+ 
+.change-color {
+   color: green;
+   transition: background-color 2s ease;
+}
+ 
