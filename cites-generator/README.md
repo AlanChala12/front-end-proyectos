@@ -6,10 +6,14 @@
 
 - **HTML**: Para estructurar el contenido de la página.
 - **CSS**: Para estilizar la interfaz del usuario.
-- **JavaScript**: Para la funcionalidad de generación de colores.
+- **JavaScript**: Para la funcionalidad de generación de citas.
 
 ---
 
 ## Preview
 
-![alt text](assets/preview.JPG)
+![alt text](images/preview.JPG)
+
+---
+
+¡Gracias por visitar este proyecto! 🎉
