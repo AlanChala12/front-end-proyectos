@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+body {
+   background-color: rgb(72, 133, 164);
+   min-height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+   flex-direction: column;
+   padding: 1rem;
+}
+
+.watch {
+   font-size: 5rem;
+   color: rgb(226, 226, 226);
+   flex-wrap: wrap;
+}
+
+.buttons {
+   gap: .5rem;
+   flex-wrap: wrap;
+}
+
+.buttons button {
+   padding: .5rem;
+   font-size: 1.25rem;
+   border: none;
+   width: 120px;
+   border-radius: .2rem;
+   background-color: rgb(3, 46, 75);
+   color: rgb(228, 228, 228);
+   cursor: pointer;
+   transition: all ease .4s;
+}
+
+.buttons button:hover {
+   background-color: rgb(5, 54, 87);
+   border-radius: 1rem;
+}
