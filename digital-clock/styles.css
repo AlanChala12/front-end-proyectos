@@ -1,0 +1,67 @@
+:root {
+
+   --main-font: "Darumadrop One", serif;
+
+   --bg-color: #282828;
+   --main-color: #fff;
+   --second-color: #cecdcd;
+   --third-color: rgb(235, 235, 235);
+
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: var(--bg-color);
+   color: var(--main-color);
+   min-height: 100vh;
+   justify-content: center;
+   padding: 1rem;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+}
+
+.container {
+   font-size: 8rem;
+   flex-wrap: wrap;
+   border: 3px solid var(--second-color);
+   align-items: center;
+   justify-content: center;
+   border-radius: 3rem;
+}
+
+.item {
+   color: var(--second-color);
+   width: 200px;
+   height: 300px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: var(--main-font);
+}
+
+h2 {
+   font-size: 8rem;
+}
+
+.item p {
+   font-size: 2rem;
+   color: var(--third-color);
+}
+
+.item .second {
+   font-size: 8rem;
+}
+
+span {
+   font-size: 8rem;
+   color: var(--second-color);
+}
+
