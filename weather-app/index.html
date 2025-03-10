@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>App weather</title>
+      <link rel="stylesheet" href="./styles.css">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="shortcut icon" href="./images/favicon.png" type="image/x-png">
+   </head>
+   <body class="flex">
+
+      <main>
+         <form class="search flex">
+            <input type="text" placeholder="Search...">
+            <button><i class='bx bx-search' ></i></button>
+         </form>
+
+         <section class="principal">
+            <div class="info flex">
+               <img src="./images/clear.png" class="showImg">
+               <h1 id="city">Medellín</h1>
+               <h2 id="temper">22°c</h2>
+            </div>
+   
+            <div class="more-info flex">
+               <div class="flex">
+                  <img src="./images/humidity.png">
+                  <p>Humidity: <span id="humi">20%</span></p>
+               </div>
+   
+               <div class="flex">
+                  <img src="./images/wind.png">
+                  <p>Wind Speed: <span id="wind">9km/h</span></p>
+               </div>
+            </div>
+         </section>
+
+         <section class="warning flex">
+            <img src="./images/404-error.svg" alt="Error 404">
+            <p>Por favor, ingresa un sitio existente</p>
+         </section>
+      </main>
+      
+      <script src="./app.js"></script>
+   </body>
+</html>

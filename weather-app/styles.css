@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+   --main-color: #0b131e; 
+   --second-color: #202b3b;
+   --third-color: rgb(63, 149, 225);
+   --forth-color: rgb(170, 177, 180);
+   --text-color: #fff;
+
+   --font-style: "Roboto", Arial, Helvetica, sans-serif;
+
+   --border-value: .8rem;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+body {
+   background-color: var(--main-color);
+   color: var(--text-color);
+   padding: 2rem 1rem;
+   font-family: var(--font-style);
+   min-height: 100vh;
+}
+
+main {
+   width: 480px;
+   border: 2px outset var(--forth-color);
+   border-radius: var(--border-value);
+   padding: 1rem;
+}
+
+.search {
+   background-color: var(--second-color);
+   justify-content: space-between;
+   border-radius: var(--border-value);
+}
+
+.search input,
+.search button {
+   padding: 1rem;
+   border: none;
+   outline: none;
+   font-size: 1.25rem;
+   background-color: transparent;
+   color: var(--text-color);
+}
+
+.search input {
+   width: 80%;
+   border-radius: var(--border-value);
+}
+
+.search button {
+   border-radius: 1rem;
+   cursor: pointer;
+   transition: all ease .5s;
+}
+
+.search button:hover {
+   color: var(--forth-color);
+}
+
+.info {
+   background-color: var(--second-color);
+   margin: 1rem 0;
+   padding: 1rem;
+   border-radius: var(--border-value);
+   flex-direction: column;
+}
+
+.info img {
+   max-width: 300px;
+}
+
+.info h1 {
+   font-size: 3rem;
+}
+
+.info h2 {
+   font-size: 2.2rem;
+}
+
+.info h1, 
+.info h2 {
+   user-select: none;
+}
+
+.info h1:hover, 
+.info h2:hover {
+   color: var(--forth-color);
+   transition: all ease .5s;
+}
+
+.more-info {
+   justify-content: space-between;
+   padding: 1rem;
+   background-color: var(--second-color);
+   border-radius: var(--border-value);
+}
+
+.more-info div {
+   gap: 1rem;
+   user-select: none;
+}
+
+.more-info div img {
+   width: 30px;
+}
+
+.more-info div p {
+   color: var(--forth-color);
+}
+
+.more-info div span {
+   font-weight: 900;
+   color: var(--text-color);
+}
+
+.warning {
+   flex-direction: column;
+   display: none;
+}
+
+.warning p {
+   font-size: 1.25rem;
+   color: var(--text-color);
+   font-weight: bold;
+   text-align: center;
+}
+
+/* .principal {
+   display: none;
+} */
