@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tic Tac Toe</title>
+      <link rel="stylesheet" href="./styles.css">
+      <link rel="shortcut icon" href="./assets/tic-tac-toe.png" type="image/x-png">
+   </head>
+   <body>
+
+      <main class="main">
+         <div class="turn">
+            <h2>Turno</h2>
+            <div class="show-turn">
+               <span>X</span>
+               <span>O</span>
+            </div>
+            <h3 class="show-state"></h3>
+         </div>
+         <div class="game">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+         </div>
+         <div class="reset-game">
+            <button onclick="resetGame()">Reset game</button>
+         </div>
+      </main>
+      
+
+      <script src="./main.js"></script>
+   </body>
+</html>
