@@ -1,0 +1,116 @@
+:root {
+   --bg-color: #ffffff;
+   --heading-font:  "Bungee Tint", sans-serif;
+   --normal-font: "Roboto", sans-serif;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--bg-color);
+   font-family: var(--normal-font);
+   padding: 1rem;
+}
+
+h1, h2 {
+   font-family: var(--heading-font);
+   text-align: center;
+}
+
+.main {
+   padding: 1rem;
+   width: 600px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.main-score {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   border: 2px solid #ff0000;
+}
+
+.main-score p {
+   padding: 1rem;
+}
+
+.score {
+   display: flex;
+   gap: 2rem;
+}
+
+.score .line {
+   width: .3rem;
+   background-color: rgb(192, 41, 41);
+}
+
+.score span {
+   font-size: 2rem;
+}
+
+.main-options {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   flex-wrap: wrap;
+}
+
+.reset-btn button {
+   padding: .5rem;
+   font-size: 1rem;
+   border: none;
+   background-color: transparent;
+   border: 2px solid red;
+   cursor: pointer;
+   width: 110px;
+   font-weight: 670;
+   color: #eb4343;
+}
+
+.main-options button {
+   padding: 1rem;
+   border-radius: 50%;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: all ease .4s;
+}
+
+.main-options button:hover {
+   background-color: #f6efef;
+}
+
+.main-options button img {
+   pointer-events: none;
+   width: 100%;
+}
+
+.reset-btn button {
+   width: 180px;
+}
+
+.winner {
+   font-weight: 500;
+   font-family: var(--heading-font);
+}
+
+.main-decisitions span {
+   font-weight: 800;
+   color: #eb4343;
+}
