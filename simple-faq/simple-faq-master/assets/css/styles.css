@@ -1,0 +1,98 @@
+:root {
+   --color1: #fff;
+   --color2: #F8FAFC;
+   --color3: #D2D5DA; 
+   --color4: #030616;
+   --color5: #4E80EE;
+   --font1: 2.25rem;
+   --font2: 1.25rem;
+   --font3: 1rem;
+   --semibold: 600;
+   --regular: 400;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-wrap: wrap;
+}
+
+body {
+   background-color: var(--color2);
+   color: var(--color4);
+   font-family: "Inter", sans-serif;
+   min-height: 100vh;
+   min-height: 100dvh;
+}
+
+.header {
+   background-color: var(--color1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 3rem;
+   min-height: 175px;
+}
+
+
+h1 {
+   font-size: var(--font1);
+   font-weight: var(--semibold);
+   margin-bottom: .3rem;
+}
+
+
+h2 {
+   font-size: var(--font2);
+   font-weight: var(--semibold);
+}
+
+.main {
+   width: 40%;
+   margin: 0 auto;
+   min-height: calc(100vh - 175px);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 2rem 1rem;
+}
+
+.main > div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 1rem;
+}
+
+ol, ul {
+   padding-left: 2rem;
+}
+
+ol li span,
+p span {
+   color: var(--color5);
+}
+
+ul li span {
+   font-weight: var(--semibold);
+}
+
+li {
+   padding: .5rem 0;
+}
+
+
+hr {
+   display: block;
+   margin: 1.5rem 0;
+}
+
+@media ( max-width: 1220px ) {
+   .main { 
+      width: 100%;
+   }
+}
+
+
