@@ -1,0 +1,72 @@
+:root {
+   --font: "Poetsen One", sans-serif;
+   --color-1: rgb(59, 158, 192);
+   --color-2: rgb(44, 120, 112);
+   --color-3: rgb(21, 51, 60);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: var(--font);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   min-height: 100dvh;
+   background-color: var(--color-1);
+   padding: 1rem;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(243, 244, 244);
+   padding: 1rem;
+   border-radius: .5rem;
+   width: 600px;
+   height: 400px;
+}
+
+h1 {
+   font-size: 4rem;
+   text-align: center;
+}
+
+h2 {
+   font-size: 3rem;
+   color: var(--color-3);
+}
+
+.buttons {
+   display: flex;
+   gap: 1rem;
+}
+
+button {
+   padding: 1rem;
+   font-size: 1.25rem;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   border-radius: .5rem;
+}
+
+.increment {
+   border: 2px solid gray;
+}
+
+.decrement {
+   border: 2px solid rgb(230, 31, 31);
+}
+
+.reset {
+   border: 2px solid rgb(29, 196, 165);
+}
