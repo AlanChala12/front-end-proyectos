@@ -11,7 +11,7 @@
 ---
 
 ## 🎨 Vista Previa
-![alt text](images/Preview.PNG)
+![alt text](assets/images/Preview.PNG)
 
 ---
 
