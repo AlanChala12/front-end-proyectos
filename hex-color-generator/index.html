@@ -1,20 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Hex color</title>
-      <link rel="icon" href="./assets/colour.png" type="image/x-png">
-      <link rel="stylesheet" href="./styles.css">
+      <link rel="icon" href="./assets/images/colour.png" type="image/x-png">
+      <link rel="stylesheet" href="./assets/css/styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
    </head>
    <body>
 
-      <div class="container">
-         <p class="color">#23afda</p>
-         <button class="change">Generar Color</button>
-      </div>
-      
+      <nav class="nav">
+         <div class="logo">
+            <h2>
+               <svg  xmlns="http://www.w3.org/2000/svg"  width="35"  height="35"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.75"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-color-filter"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13.58 13.79c.27 .68 .42 1.43 .42 2.21c0 1.77 -.77 3.37 -2 4.46a5.93 5.93 0 0 1 -4 1.54c-3.31 0 -6 -2.69 -6 -6c0 -2.76 1.88 -5.1 4.42 -5.79" /><path d="M17.58 10.21c2.54 .69 4.42 3.03 4.42 5.79c0 3.31 -2.69 6 -6 6a5.93 5.93 0 0 1 -4 -1.54" /><path d="M12 8m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" /></svg>
+            </h2>
+         </div>
+         <button type="button">
+            Generar color
+         </button>
+      </nav>
+      <main class="main">
+         <div class="color color-show-1">
+            <h2 class="show-color color-1">#456754</h2>
+         </div>
+         <div class="color color-show-2">
+            <h2 class="show-color color-2">#456754</h2>
+         </div>
+         <div class="color color-show-3">
+            <h2 class="show-color color-3">#456754</h2>
+         </div>
+         <div class="color color-show-4"> 
+            <h2 class="show-color color-4">#456754</h2>
+         </div>
+         <div class="color color-show-5">
+            <h2 class="show-color color-5">#456754</h2>
+         </div>
 
-      <script src="./app.js"></script>
+         <div class="copy">
+            <p>Color copiado 😎</p>
+         </div>
+      </main>
+
+      <script src="./assets/js/index.js"></script>
    </body>
 </html>
