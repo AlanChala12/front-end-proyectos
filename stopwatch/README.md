@@ -11,4 +11,8 @@
 ---
 
 ## 🎨 Vista Previa  
-![alt text](images/preview.PNG)
+![alt text](assets/images/preview.PNG)
+
+---
+
+¡Gracias por visitar este proyecto! 🎉
